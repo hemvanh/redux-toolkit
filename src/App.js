@@ -6,6 +6,8 @@ import IncreButton from './Counter/components/IncreButton';
 import CustomIncreButton from './Counter/components/CustomIncreButton';
 import DecreButton from './Counter/components/DecreButton';
 
+import BlogPost from './BlogPost';
+
 function App() {
   return (
     <Container>
@@ -13,6 +15,7 @@ function App() {
       <IncreButton />
       <DecreButton />
       <CustomIncreButton />
+      <BlogPost />
     </Container>
   );
 }
